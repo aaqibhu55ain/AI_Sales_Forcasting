@@ -57,6 +57,15 @@ AI-sales-forecasting/
    pip install -r requirements.txt
    ```
 
+4. **Download the dataset from Kaggle**
+   - This project uses the **Walmart Store Sales Dataset** from Kaggle
+   - Go to: https://www.kaggle.com/datasets/yasserh/walmart-dataset
+   - Download all CSV files (train.csv, test.csv, stores.csv, features.csv)
+   - Create folders: `data/raw/` and place the downloaded files there
+   - The notebooks will automatically process the data into `data/processed/`
+   
+   **Note**: Due to file size limitations, the raw data files are not included in this repository. You must download them directly from Kaggle to run the notebooks.
+
 ### Running the Notebooks
 
 Open and run the notebooks in sequence:
@@ -99,14 +108,18 @@ Then navigate to the notebooks folder and open each notebook in order.
 
 ## 📊 Data Overview
 
+**Data Source**: [Kaggle - Walmart Store Sales Dataset](https://www.kaggle.com/datasets/yasserh/walmart-dataset)
+
 - **Dataset**: Walmart Store Sales
 - **Records**: 11,000+ weekly sales entries
 - **Features Engineered**: 40+
 - **Target Variable**: Weekly sales
 
-### Data Files:
-- `data/raw/` - Original Walmart sales dataset
-- `data/processed/` - Cleaned and preprocessed data ready for modeling
+### Raw Data Files (Download from Kaggle):
+- `train.csv` - Historical training data
+- `test.csv` - Test data for evaluation
+- `stores.csv` - Store metadata (type, size, location)
+- `features.csv` - Additional features (holidays, promotions, temperature)
 
 ### Feature Categories:
 - Temporal features (month, week, year, season)
