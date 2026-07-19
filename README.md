@@ -1,4 +1,4 @@
-# AI Sales Forecasting System
+# AI-Driven Retail Demand Forecasting and Analytics Using Temporal Feature Engineering
 
 An end-to-end machine learning pipeline for retail sales prediction using Walmart store sales data. This project demonstrates a complete workflow from data preprocessing to model deployment with real-time prediction capabilities.
 
