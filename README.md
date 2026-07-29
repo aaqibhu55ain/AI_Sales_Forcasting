@@ -185,7 +185,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests to
 
 **Author**: Aaqib Hussain Dar  
 **Email**: dar.aaqib2019@gmail.com  
-**GitHub**: [@aaqibhu55ain](https://github.com/aaqibhu55ain)
+**GitHub**: [@aaqibhu55ain](https://github.com/aaqibhu55ain) 
 **LinkedIn**: https://www.linkedin.com/in/aaqibhu55ain/
 
 For questions, collaboration, or feedback, feel free to reach out or open an issue on GitHub.
